@@ -1,0 +1,17 @@
+div {
+    height: 30px;
+    width: 30px;
+    background-color: #FA6900;
+    border-radius: 5px;
+}
+
+.ledon {
+    height: 10px;
+    width: 10px;
+    background-color: #FFF900;
+    border-radius: 15px;
+}
+
+.active {
+    background-color: #AAA000;
+}
