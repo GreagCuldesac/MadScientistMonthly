@@ -16,10 +16,9 @@ $(document).ready(function() {
        } else {
 	  $('.ledon').toggleClass('ledoff');
        }
+	if (allon === 4){
+	 $("#online").show();
+	}
     }); 
-    
-    if (allon = 4){
-	$("#online").show();
- 	}
-
+   
 }); 
