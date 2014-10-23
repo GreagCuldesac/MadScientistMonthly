@@ -7,6 +7,10 @@ $(document).ready(function() {
     var allon = 0;
     $("#online").hide();
     var lightson = leds[Math.floor(Math.random()*leds.length)];
+<<<<<<< HEAD
+=======
+      
+>>>>>>> origin/master
     $('div').click(function() {
        if ($(this).is(lightson)){
           $('div.ledon').filter(lightson).toggleClass('active');
@@ -17,4 +21,10 @@ $(document).ready(function() {
        }
     }); 
     
+<<<<<<< HEAD
+=======
+    if (allon === "4"){
+	$("#online").show();
+ 	}
+>>>>>>> origin/master
 }); 
