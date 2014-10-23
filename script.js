@@ -6,8 +6,7 @@ $(document).ready(function() {
         ]
     var allon = 0;
     $("#online").hide();
-    while (allon < 4){
-	var lightson = leds[Math.floor(Math.random()*leds.length)];
+    var lightson = leds[Math.floor(Math.random()*leds.length)];
       
     $('div').click(function() {
        if ($(this).is(lightson)){
@@ -17,7 +16,7 @@ $(document).ready(function() {
 	  $('.ledon').toggleClass('ledoff');
        }
     }); 
-    }
+    
     if (allon === "4"){
 	$("#online").show();
  	}
