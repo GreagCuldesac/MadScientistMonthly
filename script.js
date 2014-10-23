@@ -9,7 +9,7 @@ $(document).ready(function() {
     
     $('div').click(function() {
        if ($(this).is(lightson)){
-          $('div.ledon').filter(lightson).toggleClass('.active');
+          $('div.ledon').filter(lightson).toggleClass('active');
        }
     }); 
 }); 
