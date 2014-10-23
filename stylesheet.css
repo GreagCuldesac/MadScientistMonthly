@@ -13,5 +13,6 @@ div {
 }
 
 .active {
+    width: 50px;
     background-color: #AAA000;
 }
