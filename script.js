@@ -9,11 +9,7 @@ $(document).ready(function() {
     
     $('div').click(function() {
        if ($(this).is(lightson)){
-          $('div.ledon').filter(lightson).animate({
-backgroundColor: "#000000",
-color: "#000",
-width: 50
-}, 102 );
+          $('div.ledon').filter(lightson).toggleClass('.active');
        }
     }); 
 }); 
