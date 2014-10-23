@@ -4,12 +4,21 @@ $(document).ready(function() {
         "#bton2",
         "#bton3" 
         ]
-    var lightson = leds[Math.floor(Math.random()*leds.length)];
-    var test = ".ledon";
-    
+    var allon = 0;
+    $("#online").hide();
+    while (allon < 4){
+	var lightson = leds[Math.floor(Math.random()*leds.length)];
+      
     $('div').click(function() {
        if ($(this).is(lightson)){
           $('div.ledon').filter(lightson).toggleClass('active');
+	  allon++;
+       } else {
+	  $('.ledon').toggleClass('ledoff');
        }
     }); 
+    }
+    if (allon === "4"){
+	$("#online").show();
+ 	}
 }); 
