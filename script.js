@@ -7,6 +7,8 @@ $(document).ready(function() {
     var allon = 0;
     $("#online").hide();
     var led1 = leds[Math.floor(Math.random()*leds.length)];
+    var led2 = 0;
+    var led3 = 0;
     
       
     $('div').click(function() {
