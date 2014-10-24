@@ -14,7 +14,7 @@ $(document).ready(function() {
     $('div').click(function() {
        if ($(this).is(led1)){
           $('div.ledon').filter(lightson).toggleClass('active');
-	  var led2 = leds[Math.floor(Math.random()*leds.length)];
+	  led2 = leds[Math.floor(Math.random()*leds.length)];
        } else {
 	  $('.ledon').toggleClass('ledoff');
        }
@@ -22,7 +22,7 @@ $(document).ready(function() {
     $('div').click(function() {
        if ($(this).is(led2)){
           $('div.ledon').filter(lightson).toggleClass('active');
-	  var led3 = leds[Math.floor(Math.random()*leds.length)];
+	  led3 = leds[Math.floor(Math.random()*leds.length)];
        } else {
 	  $('.ledon').toggleClass('ledoff');
        }
